@@ -82,7 +82,17 @@
       <div class="news_img">
         <img src="../../assets/xinwen.png" />
       </div>
-      <div class="news_loop"></div>
+      <div class="news_content">
+        <div class="news_loop">
+          <el-carousel indicator-position="none">
+            <el-carousel-item v-for="(item, index) in imgList" :key="index">
+              <img :src="require(`../../assets/${item}`)" />
+            </el-carousel-item>
+          </el-carousel>
+        </div>
+
+        <div class="news_list"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -119,6 +129,15 @@ export default {
           content:
             "围绕人工智能技术在产业低碳转型、居民低碳环保生活和城乡智慧低碳发展领域中的典型应用，征集包括但不限于信息通信行业重点设施智慧绿色升级，能源、钢铁、化工和农业等产业智慧低碳转型，线上生活、低碳消费、城乡环境智慧低碳监测与治理、智慧低碳建筑、低碳节能系统等智能科技创新应用案例。",
         },
+      ],
+      imgList: [
+        "0dc2_9faff740.jpg",
+        "1f43_e44d5b6a.jpg",
+        "5a21_83e42e04.jpg",
+        "7e39_b7b54aa9.jpg",
+        "3822_4b848d27.jpg",
+        "b735_5b476607.jpg",
+        "d9d2_48c97f08.jpg",
       ],
     };
   },
@@ -291,9 +310,25 @@ export default {
     .news_img {
       margin-bottom: 65px;
     }
-    .news_loop {
+    .news_content {
       height: 397px;
+      padding: 40px 30px;
       background-color: #05113a;
+      display: flex;
+      justify-content: space-between;
+      .news_loop {
+        width: 504px;
+        height: 314px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .news_list {
+        width: 53%;
+        height: 100%;
+        border: 1px solid white;
+      }
     }
   }
 }
