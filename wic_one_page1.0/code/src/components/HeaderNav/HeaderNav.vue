@@ -7,7 +7,7 @@
       <p class="p_title">WIC智能科技创新应用优秀案例评选</p>
       <ul>
         <li v-for="(headerItem, index) in headerList" :key="index">
-          {{ headerItem }}
+          <a>{{ headerItem }}</a>
         </li>
       </ul>
       <p class="toggle_language">
@@ -93,6 +93,9 @@ export default {
       font-size: 14px;
       li {
         padding-right: 5px;
+        a {
+          color: inherit;
+        }
       }
     }
     .toggle_language {
