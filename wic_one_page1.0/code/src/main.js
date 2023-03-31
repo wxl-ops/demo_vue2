@@ -8,9 +8,11 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import ViewUI from "view-design";
 import "view-design/dist/styles/iview.css";
+import mockServe from "../mock/index.js";
+
 Vue.use(ViewUI);
 Vue.use(ElementUI);
-
+Vue.use(mockServe);
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

@@ -10,11 +10,13 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require("path");
-const assetsPublicPath = 'https://tj-test-1302130151.file.myqcloud.com/tj-register/'
-const assetsPublicPathCOS_ENV = 'https://tj-shuangbian-cos-prod-1302130151.file.myqcloud.com/tj-register/'
+const assetsPublicPath =
+  "https://tj-test-1302130151.file.myqcloud.com/tj-register/";
+const assetsPublicPathCOS_ENV =
+  "https://tj-shuangbian-cos-prod-1302130151.file.myqcloud.com/tj-register/";
 
-const COS_ENV = process.env.COS_ENV === 'CosPro' ? assetsPublicPathCOS_ENV : assetsPublicPath
-
+const COS_ENV =
+  process.env.COS_ENV === "CosPro" ? assetsPublicPathCOS_ENV : assetsPublicPath;
 
 module.exports = {
   dev: {
@@ -66,7 +68,6 @@ module.exports = {
     /**
      * Source Maps
      */
-
     productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: "#source-map",
