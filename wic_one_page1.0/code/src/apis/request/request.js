@@ -6,7 +6,6 @@ const instance = axios.create({
 
 instance.interceptors.request.use(
   config => {
-    console.log("请求拦截器返回的内容", config);
     return config;
   },
   error => {
@@ -16,7 +15,6 @@ instance.interceptors.request.use(
 
 instance.interceptors.response.use(
   response => {
-    console.log("响应拦截器返回的内容", response);
     return response;
   },
   error => {

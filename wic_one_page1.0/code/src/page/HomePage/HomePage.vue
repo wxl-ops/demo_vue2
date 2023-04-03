@@ -1,244 +1,257 @@
 <template>
-  <div class="home_page_container">
-    <div class="banner_wrapper">
-      <div class="banner_img">
-        <img src="../../assets/banner_pc.png" />
-      </div>
-      <div class="login_box">
-        <div class="banner_login" v-if="!isLogin">
-          <h2 class="login_title">申报记录</h2>
-          <el-input v-model="username" placeholder="请输入账号"></el-input>
-          <el-input
-            placeholder="请输入密码"
-            v-model="password"
-            show-password
-          ></el-input>
-          <p class="p_login" @click="handleLogin">登录</p>
-          <p class="p_register" @click="handleToRegisterPage">注册</p>
-          <p class="p_forget_psd" @click="handleToForgetPsdPage">忘记密码</p>
+  <div class="container">
+    <div class="home_page_container">
+      <div class="banner_wrapper">
+        <div class="banner_img">
+          <img src="../../assets/banner_pc.png" />
         </div>
-        <div class="banner_new_report" :class="this.isLogin ? '' : 'is_hidden'">
-          <h2 class="report_title">新申报</h2>
-          <p class="p_report" @click="handleClick">智能制造</p>
-          <p class="p_report" @click="handleClick">智能网联汽车</p>
-          <p class="p_report" @click="handleClick">智慧低碳发展</p>
-        </div>
-      </div>
-    </div>
-    <div class="introduction_wrapper">
-      <div class="introduction_image">
-        <img src="../../assets/jieshao.png" />
-      </div>
-      <div class="introduction_article">
-        <p>{{ articleContent[0] }}</p>
-        <p>{{ articleContent[1] }}</p>
-        <p>{{ articleContent[2] }}</p>
-      </div>
-      <p class="intro_ident">
-        第七届世界智能大会“WIC智能科技创新应用优秀案例”面向<br />
-        智能制造、智能网联汽车、智慧低碳发展领域进行全球征集
-      </p>
-      <div class="intro_detail_wrapper">
-        <div class="intro_detail" v-for="item in detailTitle" :key="item.id">
-          <div class="intro_detail_img">
-            <img :src="require(`../../assets/jieshao_${item.id}.png`)" />
+        <div class="login_box">
+          <div class="banner_login" v-if="!isLogin">
+            <h2 class="login_title">申报记录</h2>
+            <el-input v-model="username" placeholder="请输入账号"></el-input>
+            <el-input
+              placeholder="请输入密码"
+              v-model="password"
+              show-password
+            ></el-input>
+            <p class="p_login" @click="handleLogin">登录</p>
+            <p class="p_register" @click="handleToRegisterPage">注册</p>
+            <p class="p_forget_psd" @click="handleToForgetPsdPage">忘记密码</p>
           </div>
-          <p class="intro_title">{{ item.title }}</p>
-          <p class="intro_content">{{ item.content }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="img_wrapper">
-      <div class="img_title">
-        <img src="../../assets/liucheng.png" />
-      </div>
-      <div class="img_content">
-        <img src="../../assets/liucheng_line_pc.png" />
-      </div>
-    </div>
-    <div class="signup_wrapper">
-      <div class="signup_img">
-        <img src="../../assets/fangshi.png" />
-      </div>
-      <div class="signup_content">
-        <h3>(一)申报渠道</h3>
-        <p>案例征集采取专业机构推荐和申报单位(个人)自荐相</p>
-        <p>结合的方式，通过线上申报系统提交优秀案例申报材料。</p>
-        <p>申报系统网址：https://award.wicongress.org.cn/</p>
-        <h3>(二)需要提交的材料</h3>
-        <p>
-          注册申报系统后，登录并下载填报《第七届世界智能大会WIC智能科技创新应用优秀案例申报书》。
-        </p>
-        <p>除基本信息外,申报者应提供如下材料(包含但不限于):</p>
-        <p>1.案例介绍</p>
-        <p>2.自主知识产权等相关佐证材料。</p>
-        <p>
-          3.第三方鉴定报告、科技查新报告、媒体报道等真实性、先进性相关佐证材料。
-        </p>
-        <p>4.该案例取得或预期取得经济效益和社会效益的相关佐证材料。</p>
-      </div>
-    </div>
-    <div class="news_wrapper">
-      <div class="news_img">
-        <img src="../../assets/xinwen.png" />
-      </div>
-      <div class="news_content">
-        <div class="news_loop">
-          <el-carousel
-            indicator-position="none"
-            class="carousel"
-            @change="handleChangeCarousel"
-            ref="refCarousel"
+          <div
+            class="banner_new_report"
+            :class="this.isLogin ? '' : 'is_hidden'"
           >
-            <el-carousel-item
-              v-for="(item, index) in imgList[currentList]"
-              :key="index"
-            >
-              <img :src="require(`../../assets/${item}`)" />
-            </el-carousel-item>
-          </el-carousel>
-        </div>
-        <div class="news_list">
-          <ul>
-            <li
-              v-for="(newsTitle, index) in newsList[currentList]"
-              :key="index"
-            >
-              <p
-                class="p_title"
-                :class="index === currentCarousel ? 'p_title_blue' : ''"
-                @mouseenter="handleMouseenter(index)"
-              >
-                {{ newsTitle.newsTitle }}
-              </p>
-              <p class="p_time">{{ newsTitle.newsTime }}</p>
-            </li>
-          </ul>
-          <div class="div_pagination">
-            <el-pagination
-              background
-              layout="pager"
-              :total="30"
-              @current-change="handleCurrentChange"
-            >
-            </el-pagination>
+            <h2 class="report_title">新申报</h2>
+            <p class="p_report" @click="handleClick">智能制造</p>
+            <p class="p_report" @click="handleClick">智能网联汽车</p>
+            <p class="p_report" @click="handleClick">智慧低碳发展</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="cases_wrapper">
-      <div class="cases_img">
-        <img src="../../assets/anli.png" />
-      </div>
-      <div class="excellent_cases_wrapper">
-        <div
-          class="excellent_cases_item"
-          v-for="(excellentCasesItem, index) in excellentCasesList"
-          :key="excellentCasesItem.id"
-        >
-          <div class="excellent_cases_img">
-            <img :src="excellentCasesItem.cover" />
-            <div class="two_button">
-              <p class="text_detail" @click="handleClickDetail(index)">
-                <img src="../../assets/case.e246742.png" />&nbsp;<span
-                  >案例简介</span
-                >
-              </p>
-              <p class="video_detail" @click="handleClickVideo(index)">
-                <img src="../../assets/video.1675dae.png" />&nbsp;<span
-                  >宣传视频</span
-                >
-              </p>
-            </div>
-          </div>
-          <div class="excellent_cases_text">
-            <div class="text_img">
-              <img :src="excellentCasesItem.logo" />
-            </div>
-            <div class="div_text">
-              <h2>{{ excellentCasesItem.title }}</h2>
-              <ul>
-                <li>所属单位：{{ excellentCasesItem.company }}</li>
-                <li>所属领域：{{ excellentCasesItem.field }}</li>
-                <li>关键词：{{ excellentCasesItem.key_word }}</li>
-              </ul>
-            </div>
-          </div>
+      <div class="introduction_wrapper">
+        <div class="introduction_image">
+          <img src="../../assets/jieshao.png" />
         </div>
-      </div>
-    </div>
-    <div class="supporting_wrapper">
-      <div class="supporting_img">
-        <img src="../../assets/title_zhichi_zh.png" />
-      </div>
-      <ul>
-        <li>中国空间技术研究院航天生产力促进中心</li>
-        <li>法国里昂商学院</li>
-        <li>锦囊专家（北京捷恩旭技术咨询有限公司）</li>
-        <li>河北 CIO社区</li>
-        <li>青岛CIO联盟</li>
-        <li>工业4.0俱乐部</li>
-        <li>西南CIO联盟</li>
-        <li>黑龙江省CIO联盟</li>
-        <li>河南CIO社区</li>
-        <li>武汉企业信息化促进会</li>
-        <li>黑龙江省工业和信息化厅</li>
-        <li>湖北省经济和信息化厅</li>
-        <li>福建省工业和信息化厅</li>
-        <li>江苏省工业和信息化厅</li>
-        <li>四川省经济和信息化厅</li>
-      </ul>
-    </div>
-    <el-dialog
-      :title="excellentCasesList[currentIdDetail].title"
-      :visible.sync="DetailDialogVisible"
-      width="30%"
-      class="detail_dialog_style"
-    >
-      <div class="detail_dialog_wrapper">
-        <div class="dialog_header">
-          <h2>简介</h2>
-          <div class="toggle_language">
-            <p
-              @click="handleToggleZh"
-              :class="this.isCurrent ? 'is_current' : ''"
-            >
-              中文
-            </p>
-            <p
-              @click="handleToggleEn"
-              :class="this.isCurrent ? '' : 'is_current'"
-            >
-              EN
-            </p>
-          </div>
+        <div class="introduction_article" v-if="articleContent.length">
+          <p>{{ articleContent[0] }}</p>
+          <p>{{ articleContent[1] }}</p>
+          <p>{{ articleContent[2] }}</p>
         </div>
-        <p class="content_p">
-          {{
-            this.isCurrent
-              ? excellentCasesList[currentIdDetail].chinese_intro
-              : excellentCasesList[currentIdDetail].english_intro
-          }}
+        <p class="intro_ident">
+          第七届世界智能大会“WIC智能科技创新应用优秀案例”面向<br />
+          智能制造、智能网联汽车、智慧低碳发展领域进行全球征集
         </p>
+        <div class="intro_detail_wrapper" v-if="detailTitle.length">
+          <div class="intro_detail" v-for="item in detailTitle" :key="item.id">
+            <div class="intro_detail_img">
+              <img :src="require(`../../assets/jieshao_${item.id}.png`)" />
+            </div>
+            <p class="intro_title">{{ item.title }}</p>
+            <p class="intro_content">{{ item.content }}</p>
+          </div>
+        </div>
       </div>
-    </el-dialog>
-    <el-dialog
-      :title="excellentCasesList[currentIdDetail].title"
-      :visible.sync="VideoDialogVisible"
-      width="30%"
-      class="detail_dialog_style"
-      @close="handleCloseVideo"
-    >
-      <div class="video_wrapper">
-        <video
-          :src="excellentCasesList[currentIdDetail].video"
-          controls
-          autoplay
-          width="100%"
-          ref="ref_video"
-        ></video>
+      <div class="img_wrapper">
+        <div class="img_title">
+          <img src="../../assets/liucheng.png" />
+        </div>
+        <div class="img_content">
+          <img src="../../assets/liucheng_line_pc.png" />
+        </div>
       </div>
-    </el-dialog>
+      <div class="signup_wrapper">
+        <div class="signup_img">
+          <img src="../../assets/fangshi.png" />
+        </div>
+        <div class="signup_content">
+          <h3>(一)申报渠道</h3>
+          <p>案例征集采取专业机构推荐和申报单位(个人)自荐相</p>
+          <p>结合的方式，通过线上申报系统提交优秀案例申报材料。</p>
+          <p>申报系统网址：https://award.wicongress.org.cn/</p>
+          <h3>(二)需要提交的材料</h3>
+          <p>
+            注册申报系统后，登录并下载填报《第七届世界智能大会WIC智能科技创新应用优秀案例申报书》。
+          </p>
+          <p>除基本信息外,申报者应提供如下材料(包含但不限于):</p>
+          <p>1.案例介绍</p>
+          <p>2.自主知识产权等相关佐证材料。</p>
+          <p>
+            3.第三方鉴定报告、科技查新报告、媒体报道等真实性、先进性相关佐证材料。
+          </p>
+          <p>4.该案例取得或预期取得经济效益和社会效益的相关佐证材料。</p>
+        </div>
+      </div>
+      <div class="news_wrapper">
+        <div class="news_img">
+          <img src="../../assets/xinwen.png" />
+        </div>
+        <div class="news_content" v-if="imgList.length">
+          <div class="news_loop">
+            <el-carousel
+              indicator-position="none"
+              class="carousel"
+              @change="handleChangeCarousel"
+              ref="refCarousel"
+            >
+              <el-carousel-item
+                v-for="(item, index) in imgList[currentList]"
+                :key="index"
+              >
+                <img :src="require(`../../assets/${item}`)" />
+              </el-carousel-item>
+            </el-carousel>
+          </div>
+          <div class="news_list" v-if="newsList.length">
+            <ul>
+              <li
+                v-for="(newsTitle, index) in newsList[currentList]"
+                :key="index"
+              >
+                <p
+                  class="p_title"
+                  :class="index === currentCarousel ? 'p_title_blue' : ''"
+                  @mouseenter="handleMouseenter(index)"
+                >
+                  {{ newsTitle.newsTitle }}
+                </p>
+                <p class="p_time">{{ newsTitle.newsTime }}</p>
+              </li>
+            </ul>
+            <div class="div_pagination">
+              <el-pagination
+                background
+                layout="pager"
+                :total="30"
+                @current-change="handleCurrentChange"
+              >
+              </el-pagination>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cases_wrapper">
+        <div class="cases_img">
+          <img src="../../assets/anli.png" />
+        </div>
+        <div class="excellent_cases_wrapper">
+          <div
+            class="excellent_cases_item"
+            v-for="(excellentCasesItem, index) in excellentCasesList"
+            :key="excellentCasesItem.id"
+          >
+            <div class="excellent_cases_img">
+              <img :src="excellentCasesItem.cover" />
+              <div class="two_button">
+                <p class="text_detail" @click="handleClickDetail(index)">
+                  <img src="../../assets/case.e246742.png" />&nbsp;<span
+                    >案例简介</span
+                  >
+                </p>
+                <p class="video_detail" @click="handleClickVideo(index)">
+                  <img src="../../assets/video.1675dae.png" />&nbsp;<span
+                    >宣传视频</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="excellent_cases_text">
+              <div class="text_img">
+                <img :src="excellentCasesItem.logo" />
+              </div>
+              <div class="div_text">
+                <h2>{{ excellentCasesItem.title }}</h2>
+                <ul>
+                  <li>所属单位：{{ excellentCasesItem.company }}</li>
+                  <li>所属领域：{{ excellentCasesItem.field }}</li>
+                  <li>关键词：{{ excellentCasesItem.key_word }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="supporting_wrapper">
+        <div class="supporting_img">
+          <img src="../../assets/title_zhichi_zh.png" />
+        </div>
+        <ul>
+          <li>中国空间技术研究院航天生产力促进中心</li>
+          <li>法国里昂商学院</li>
+          <li>锦囊专家（北京捷恩旭技术咨询有限公司）</li>
+          <li>河北 CIO社区</li>
+          <li>青岛CIO联盟</li>
+          <li>工业4.0俱乐部</li>
+          <li>西南CIO联盟</li>
+          <li>黑龙江省CIO联盟</li>
+          <li>河南CIO社区</li>
+          <li>武汉企业信息化促进会</li>
+          <li>黑龙江省工业和信息化厅</li>
+          <li>湖北省经济和信息化厅</li>
+          <li>福建省工业和信息化厅</li>
+          <li>江苏省工业和信息化厅</li>
+          <li>四川省经济和信息化厅</li>
+        </ul>
+      </div>
+      <el-dialog
+        :title="excellentCasesList[currentIdDetail].title"
+        :visible.sync="DetailDialogVisible"
+        width="30%"
+        class="detail_dialog_style"
+        v-if="excellentCasesList.length"
+      >
+        <h1 slot="title" class="el-dialog__title">
+          {{ excellentCasesList[currentIdDetail].title }}
+        </h1>
+        <div class="detail_dialog_wrapper">
+          <div class="dialog_header">
+            <h2>简介</h2>
+            <div class="toggle_language">
+              <p
+                @click="handleToggleZh"
+                :class="this.isCurrent ? 'is_current' : ''"
+              >
+                中文
+              </p>
+              <p
+                @click="handleToggleEn"
+                :class="this.isCurrent ? '' : 'is_current'"
+              >
+                EN
+              </p>
+            </div>
+          </div>
+          <p class="content_p">
+            {{
+              this.isCurrent
+                ? excellentCasesList[currentIdDetail].chinese_intro
+                : excellentCasesList[currentIdDetail].english_intro
+            }}
+          </p>
+        </div>
+      </el-dialog>
+      <el-dialog
+        :title="excellentCasesList[currentIdDetail].title"
+        :visible.sync="VideoDialogVisible"
+        width="30%"
+        class="detail_dialog_style"
+        @close="handleCloseVideo"
+        v-if="excellentCasesList.length"
+      >
+        <h1 slot="title" class="el-dialog__title">
+          {{ excellentCasesList[currentIdDetail].title }}
+        </h1>
+        <div class="video_wrapper">
+          <video
+            :src="excellentCasesList[currentIdDetail].video"
+            controls
+            autoplay
+            width="100%"
+            ref="ref_video"
+          ></video>
+        </div>
+      </el-dialog>
+    </div>
   </div>
 </template>
 
@@ -277,7 +290,9 @@ export default {
           this.isLogin = true;
         });
     },
-    handleToRegisterPage() {},
+    handleToRegisterPage() {
+      this.$router.push("/register");
+    },
     handleToForgetPsdPage() {},
     handleClick() {},
     handleCurrentChange(currentPage) {
@@ -352,9 +367,14 @@ export default {
   border-color: orange !important;
   color: #fff;
 }
+.container {
+  background: url("../../assets/back_pc.jpg") 0% 0% / cover;
+}
 .home_page_container {
+  width: 1200px;
+  margin: 0 auto;
   .banner_wrapper {
-    margin: 110px 0 137px;
+    padding: 110px 0 137px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -657,7 +677,7 @@ export default {
     }
   }
   .supporting_wrapper {
-    margin-bottom: 75px;
+    padding-bottom: 75px;
     .supporting_img {
       margin-bottom: 65px;
     }
@@ -669,6 +689,11 @@ export default {
     }
   }
   .detail_dialog_style {
+    h1 {
+      font-size: 24px;
+      @include ellipsis_text-row();
+      padding-right: 50px;
+    }
     .detail_dialog_wrapper {
       padding: 20px;
       .dialog_header {
