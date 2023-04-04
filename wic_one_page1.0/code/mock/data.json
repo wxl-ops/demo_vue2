@@ -276,5 +276,3068 @@
       "create_date": "2022-06-16 15:57:42"
     }
   ],
-  "standingCasesImg": [{}]
+  "standingCasesImg": [{}],
+  "areaOptionsList": [
+    {
+      "country_id": "1",
+      "id": "1",
+      "title": "中国",
+      "code": "0",
+      "province": [
+        {
+          "province_id": "2",
+          "id": "2",
+          "title": "北京",
+          "code": "10000",
+          "city": [
+            {
+              "city_id": "3",
+              "id": "3",
+              "title": "北京",
+              "code": "10100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "22",
+          "id": "22",
+          "title": "上海",
+          "code": "20000",
+          "city": [
+            {
+              "city_id": "23",
+              "id": "23",
+              "title": "上海",
+              "code": "20100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "44",
+          "id": "44",
+          "title": "天津",
+          "code": "30000",
+          "city": [
+            {
+              "city_id": "45",
+              "id": "45",
+              "title": "天津",
+              "code": "30100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "65",
+          "id": "65",
+          "title": "重庆",
+          "code": "40000",
+          "city": [
+            {
+              "city_id": "66",
+              "id": "66",
+              "title": "重庆",
+              "code": "40100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "108",
+          "id": "108",
+          "title": "河北",
+          "code": "50000",
+          "city": [
+            {
+              "city_id": "109",
+              "id": "109",
+              "title": "石家庄",
+              "code": "50100",
+              "region": []
+            },
+            {
+              "city_id": "110",
+              "id": "110",
+              "title": "邯郸",
+              "code": "50200",
+              "region": []
+            },
+            {
+              "city_id": "111",
+              "id": "111",
+              "title": "邢台",
+              "code": "50300",
+              "region": []
+            },
+            {
+              "city_id": "112",
+              "id": "112",
+              "title": "保定",
+              "code": "50400",
+              "region": []
+            },
+            {
+              "city_id": "113",
+              "id": "113",
+              "title": "张家口",
+              "code": "50500",
+              "region": []
+            },
+            {
+              "city_id": "114",
+              "id": "114",
+              "title": "承德",
+              "code": "50600",
+              "region": []
+            },
+            {
+              "city_id": "115",
+              "id": "115",
+              "title": "廊坊",
+              "code": "50700",
+              "region": []
+            },
+            {
+              "city_id": "116",
+              "id": "116",
+              "title": "唐山",
+              "code": "50800",
+              "region": []
+            },
+            {
+              "city_id": "117",
+              "id": "117",
+              "title": "秦皇岛",
+              "code": "50900",
+              "region": []
+            },
+            {
+              "city_id": "118",
+              "id": "118",
+              "title": "沧州",
+              "code": "51000",
+              "region": []
+            },
+            {
+              "city_id": "119",
+              "id": "119",
+              "title": "衡水",
+              "code": "51100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "121",
+          "id": "121",
+          "title": "山西",
+          "code": "60000",
+          "city": [
+            {
+              "city_id": "122",
+              "id": "122",
+              "title": "太原",
+              "code": "60100",
+              "region": []
+            },
+            {
+              "city_id": "123",
+              "id": "123",
+              "title": "大同",
+              "code": "60200",
+              "region": []
+            },
+            {
+              "city_id": "124",
+              "id": "124",
+              "title": "阳泉",
+              "code": "60300",
+              "region": []
+            },
+            {
+              "city_id": "125",
+              "id": "125",
+              "title": "长治",
+              "code": "60400",
+              "region": []
+            },
+            {
+              "city_id": "126",
+              "id": "126",
+              "title": "晋城",
+              "code": "60500",
+              "region": []
+            },
+            {
+              "city_id": "127",
+              "id": "127",
+              "title": "朔州",
+              "code": "60600",
+              "region": []
+            },
+            {
+              "city_id": "128",
+              "id": "128",
+              "title": "吕梁",
+              "code": "60700",
+              "region": []
+            },
+            {
+              "city_id": "129",
+              "id": "129",
+              "title": "忻州",
+              "code": "60800",
+              "region": []
+            },
+            {
+              "city_id": "130",
+              "id": "130",
+              "title": "晋中",
+              "code": "60900",
+              "region": []
+            },
+            {
+              "city_id": "131",
+              "id": "131",
+              "title": "临汾",
+              "code": "61000",
+              "region": []
+            },
+            {
+              "city_id": "132",
+              "id": "132",
+              "title": "运城",
+              "code": "61100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "134",
+          "id": "134",
+          "title": "内蒙古",
+          "code": "70000",
+          "city": [
+            {
+              "city_id": "135",
+              "id": "135",
+              "title": "呼和浩特",
+              "code": "70100",
+              "region": []
+            },
+            {
+              "city_id": "136",
+              "id": "136",
+              "title": "包头",
+              "code": "70200",
+              "region": []
+            },
+            {
+              "city_id": "137",
+              "id": "137",
+              "title": "乌海",
+              "code": "70300",
+              "region": []
+            },
+            {
+              "city_id": "138",
+              "id": "138",
+              "title": "赤峰",
+              "code": "70400",
+              "region": []
+            },
+            {
+              "city_id": "139",
+              "id": "139",
+              "title": "呼伦贝尔盟",
+              "code": "70500",
+              "region": []
+            },
+            {
+              "city_id": "140",
+              "id": "140",
+              "title": "阿拉善盟",
+              "code": "70600",
+              "region": []
+            },
+            {
+              "city_id": "141",
+              "id": "141",
+              "title": "哲里木盟",
+              "code": "70700",
+              "region": []
+            },
+            {
+              "city_id": "142",
+              "id": "142",
+              "title": "兴安盟",
+              "code": "70800",
+              "region": []
+            },
+            {
+              "city_id": "143",
+              "id": "143",
+              "title": "乌兰察布盟",
+              "code": "70900",
+              "region": []
+            },
+            {
+              "city_id": "144",
+              "id": "144",
+              "title": "锡林郭勒盟",
+              "code": "71000",
+              "region": []
+            },
+            {
+              "city_id": "145",
+              "id": "145",
+              "title": "巴彦淖尔盟",
+              "code": "71100",
+              "region": []
+            },
+            {
+              "city_id": "146",
+              "id": "146",
+              "title": "伊克昭盟",
+              "code": "71200",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "148",
+          "id": "148",
+          "title": "辽宁",
+          "code": "80000",
+          "city": [
+            {
+              "city_id": "149",
+              "id": "149",
+              "title": "沈阳",
+              "code": "80100",
+              "region": []
+            },
+            {
+              "city_id": "150",
+              "id": "150",
+              "title": "大连",
+              "code": "80200",
+              "region": []
+            },
+            {
+              "city_id": "151",
+              "id": "151",
+              "title": "鞍山",
+              "code": "80300",
+              "region": []
+            },
+            {
+              "city_id": "152",
+              "id": "152",
+              "title": "抚顺",
+              "code": "80400",
+              "region": []
+            },
+            {
+              "city_id": "153",
+              "id": "153",
+              "title": "本溪",
+              "code": "80500",
+              "region": []
+            },
+            {
+              "city_id": "154",
+              "id": "154",
+              "title": "丹东",
+              "code": "80600",
+              "region": []
+            },
+            {
+              "city_id": "155",
+              "id": "155",
+              "title": "锦州",
+              "code": "80700",
+              "region": []
+            },
+            {
+              "city_id": "156",
+              "id": "156",
+              "title": "营口",
+              "code": "80800",
+              "region": []
+            },
+            {
+              "city_id": "157",
+              "id": "157",
+              "title": "阜新",
+              "code": "80900",
+              "region": []
+            },
+            {
+              "city_id": "158",
+              "id": "158",
+              "title": "辽阳",
+              "code": "81000",
+              "region": []
+            },
+            {
+              "city_id": "159",
+              "id": "159",
+              "title": "盘锦",
+              "code": "81100",
+              "region": []
+            },
+            {
+              "city_id": "160",
+              "id": "160",
+              "title": "铁岭",
+              "code": "81200",
+              "region": []
+            },
+            {
+              "city_id": "161",
+              "id": "161",
+              "title": "朝阳",
+              "code": "81300",
+              "region": []
+            },
+            {
+              "city_id": "162",
+              "id": "162",
+              "title": "葫芦岛",
+              "code": "81400",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "164",
+          "id": "164",
+          "title": "吉林",
+          "code": "90000",
+          "city": [
+            {
+              "city_id": "165",
+              "id": "165",
+              "title": "长春",
+              "code": "90100",
+              "region": []
+            },
+            {
+              "city_id": "166",
+              "id": "166",
+              "title": "吉林",
+              "code": "90200",
+              "region": []
+            },
+            {
+              "city_id": "167",
+              "id": "167",
+              "title": "四平",
+              "code": "90300",
+              "region": []
+            },
+            {
+              "city_id": "168",
+              "id": "168",
+              "title": "辽源",
+              "code": "90400",
+              "region": []
+            },
+            {
+              "city_id": "169",
+              "id": "169",
+              "title": "通化",
+              "code": "90500",
+              "region": []
+            },
+            {
+              "city_id": "170",
+              "id": "170",
+              "title": "白山",
+              "code": "90600",
+              "region": []
+            },
+            {
+              "city_id": "171",
+              "id": "171",
+              "title": "松原",
+              "code": "90700",
+              "region": []
+            },
+            {
+              "city_id": "172",
+              "id": "172",
+              "title": "白城",
+              "code": "90800",
+              "region": []
+            },
+            {
+              "city_id": "173",
+              "id": "173",
+              "title": "延边",
+              "code": "90900",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "175",
+          "id": "175",
+          "title": "黑龙江",
+          "code": "100000",
+          "city": [
+            {
+              "city_id": "176",
+              "id": "176",
+              "title": "哈尔滨",
+              "code": "100100",
+              "region": []
+            },
+            {
+              "city_id": "177",
+              "id": "177",
+              "title": "齐齐哈尔",
+              "code": "100200",
+              "region": []
+            },
+            {
+              "city_id": "178",
+              "id": "178",
+              "title": "牡丹江",
+              "code": "100300",
+              "region": []
+            },
+            {
+              "city_id": "179",
+              "id": "179",
+              "title": "佳木斯",
+              "code": "100400",
+              "region": []
+            },
+            {
+              "city_id": "180",
+              "id": "180",
+              "title": "大庆",
+              "code": "100500",
+              "region": []
+            },
+            {
+              "city_id": "181",
+              "id": "181",
+              "title": "绥化",
+              "code": "100600",
+              "region": []
+            },
+            {
+              "city_id": "182",
+              "id": "182",
+              "title": "鹤岗",
+              "code": "100700",
+              "region": []
+            },
+            {
+              "city_id": "183",
+              "id": "183",
+              "title": "鸡西",
+              "code": "100800",
+              "region": []
+            },
+            {
+              "city_id": "184",
+              "id": "184",
+              "title": "黑河",
+              "code": "100900",
+              "region": []
+            },
+            {
+              "city_id": "185",
+              "id": "185",
+              "title": "双鸭山",
+              "code": "101000",
+              "region": []
+            },
+            {
+              "city_id": "186",
+              "id": "186",
+              "title": "伊春",
+              "code": "101100",
+              "region": []
+            },
+            {
+              "city_id": "187",
+              "id": "187",
+              "title": "七台河",
+              "code": "101200",
+              "region": []
+            },
+            {
+              "city_id": "188",
+              "id": "188",
+              "title": "大兴安岭",
+              "code": "101300",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "190",
+          "id": "190",
+          "title": "江苏",
+          "code": "110000",
+          "city": [
+            {
+              "city_id": "191",
+              "id": "191",
+              "title": "南京",
+              "code": "110100",
+              "region": []
+            },
+            {
+              "city_id": "192",
+              "id": "192",
+              "title": "镇江",
+              "code": "110200",
+              "region": []
+            },
+            {
+              "city_id": "193",
+              "id": "193",
+              "title": "苏州",
+              "code": "110300",
+              "region": []
+            },
+            {
+              "city_id": "194",
+              "id": "194",
+              "title": "南通",
+              "code": "110400",
+              "region": []
+            },
+            {
+              "city_id": "195",
+              "id": "195",
+              "title": "扬州",
+              "code": "110500",
+              "region": []
+            },
+            {
+              "city_id": "196",
+              "id": "196",
+              "title": "盐城",
+              "code": "110600",
+              "region": []
+            },
+            {
+              "city_id": "197",
+              "id": "197",
+              "title": "徐州",
+              "code": "110700",
+              "region": []
+            },
+            {
+              "city_id": "198",
+              "id": "198",
+              "title": "连云港",
+              "code": "110800",
+              "region": []
+            },
+            {
+              "city_id": "199",
+              "id": "199",
+              "title": "常州",
+              "code": "110900",
+              "region": []
+            },
+            {
+              "city_id": "200",
+              "id": "200",
+              "title": "无锡",
+              "code": "111000",
+              "region": []
+            },
+            {
+              "city_id": "201",
+              "id": "201",
+              "title": "宿迁",
+              "code": "111100",
+              "region": []
+            },
+            {
+              "city_id": "202",
+              "id": "202",
+              "title": "泰州",
+              "code": "111200",
+              "region": []
+            },
+            {
+              "city_id": "203",
+              "id": "203",
+              "title": "淮安",
+              "code": "111300",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "205",
+          "id": "205",
+          "title": "浙江",
+          "code": "120000",
+          "city": [
+            {
+              "city_id": "206",
+              "id": "206",
+              "title": "杭州",
+              "code": "120100",
+              "region": []
+            },
+            {
+              "city_id": "207",
+              "id": "207",
+              "title": "宁波",
+              "code": "120200",
+              "region": []
+            },
+            {
+              "city_id": "208",
+              "id": "208",
+              "title": "温州",
+              "code": "120300",
+              "region": []
+            },
+            {
+              "city_id": "209",
+              "id": "209",
+              "title": "嘉兴",
+              "code": "120400",
+              "region": []
+            },
+            {
+              "city_id": "210",
+              "id": "210",
+              "title": "湖州",
+              "code": "120500",
+              "region": []
+            },
+            {
+              "city_id": "211",
+              "id": "211",
+              "title": "绍兴",
+              "code": "120600",
+              "region": []
+            },
+            {
+              "city_id": "212",
+              "id": "212",
+              "title": "金华",
+              "code": "120700",
+              "region": []
+            },
+            {
+              "city_id": "213",
+              "id": "213",
+              "title": "衢州",
+              "code": "120800",
+              "region": []
+            },
+            {
+              "city_id": "214",
+              "id": "214",
+              "title": "舟山",
+              "code": "120900",
+              "region": []
+            },
+            {
+              "city_id": "215",
+              "id": "215",
+              "title": "台州",
+              "code": "121000",
+              "region": []
+            },
+            {
+              "city_id": "216",
+              "id": "216",
+              "title": "丽水",
+              "code": "121100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "218",
+          "id": "218",
+          "title": "安徽",
+          "code": "130000",
+          "city": [
+            {
+              "city_id": "219",
+              "id": "219",
+              "title": "合肥",
+              "code": "130100",
+              "region": []
+            },
+            {
+              "city_id": "220",
+              "id": "220",
+              "title": "芜湖",
+              "code": "130200",
+              "region": []
+            },
+            {
+              "city_id": "221",
+              "id": "221",
+              "title": "蚌埠",
+              "code": "130300",
+              "region": []
+            },
+            {
+              "city_id": "222",
+              "id": "222",
+              "title": "马鞍山",
+              "code": "130400",
+              "region": []
+            },
+            {
+              "city_id": "223",
+              "id": "223",
+              "title": "淮北",
+              "code": "130500",
+              "region": []
+            },
+            {
+              "city_id": "224",
+              "id": "224",
+              "title": "铜陵",
+              "code": "130600",
+              "region": []
+            },
+            {
+              "city_id": "225",
+              "id": "225",
+              "title": "安庆",
+              "code": "130700",
+              "region": []
+            },
+            {
+              "city_id": "226",
+              "id": "226",
+              "title": "黄山",
+              "code": "130800",
+              "region": []
+            },
+            {
+              "city_id": "227",
+              "id": "227",
+              "title": "滁州",
+              "code": "130900",
+              "region": []
+            },
+            {
+              "city_id": "228",
+              "id": "228",
+              "title": "宿州",
+              "code": "131000",
+              "region": []
+            },
+            {
+              "city_id": "229",
+              "id": "229",
+              "title": "池州",
+              "code": "131100",
+              "region": []
+            },
+            {
+              "city_id": "230",
+              "id": "230",
+              "title": "淮南",
+              "code": "131200",
+              "region": []
+            },
+            {
+              "city_id": "231",
+              "id": "231",
+              "title": "巢湖",
+              "code": "131300",
+              "region": []
+            },
+            {
+              "city_id": "232",
+              "id": "232",
+              "title": "阜阳",
+              "code": "131400",
+              "region": []
+            },
+            {
+              "city_id": "233",
+              "id": "233",
+              "title": "六安",
+              "code": "131500",
+              "region": []
+            },
+            {
+              "city_id": "234",
+              "id": "234",
+              "title": "宣城",
+              "code": "131600",
+              "region": []
+            },
+            {
+              "city_id": "235",
+              "id": "235",
+              "title": "亳州",
+              "code": "131700",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "237",
+          "id": "237",
+          "title": "福建",
+          "code": "140000",
+          "city": [
+            {
+              "city_id": "238",
+              "id": "238",
+              "title": "福州",
+              "code": "140100",
+              "region": []
+            },
+            {
+              "city_id": "239",
+              "id": "239",
+              "title": "厦门",
+              "code": "140200",
+              "region": []
+            },
+            {
+              "city_id": "240",
+              "id": "240",
+              "title": "莆田",
+              "code": "140300",
+              "region": []
+            },
+            {
+              "city_id": "241",
+              "id": "241",
+              "title": "三明",
+              "code": "140400",
+              "region": []
+            },
+            {
+              "city_id": "242",
+              "id": "242",
+              "title": "泉州",
+              "code": "140500",
+              "region": []
+            },
+            {
+              "city_id": "243",
+              "id": "243",
+              "title": "漳州",
+              "code": "140600",
+              "region": []
+            },
+            {
+              "city_id": "244",
+              "id": "244",
+              "title": "南平",
+              "code": "140700",
+              "region": []
+            },
+            {
+              "city_id": "245",
+              "id": "245",
+              "title": "龙岩",
+              "code": "140800",
+              "region": []
+            },
+            {
+              "city_id": "246",
+              "id": "246",
+              "title": "宁德",
+              "code": "140900",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "248",
+          "id": "248",
+          "title": "江西",
+          "code": "150000",
+          "city": [
+            {
+              "city_id": "249",
+              "id": "249",
+              "title": "南昌市",
+              "code": "150100",
+              "region": []
+            },
+            {
+              "city_id": "250",
+              "id": "250",
+              "title": "景德镇",
+              "code": "150200",
+              "region": []
+            },
+            {
+              "city_id": "251",
+              "id": "251",
+              "title": "九江",
+              "code": "150300",
+              "region": []
+            },
+            {
+              "city_id": "252",
+              "id": "252",
+              "title": "鹰潭",
+              "code": "150400",
+              "region": []
+            },
+            {
+              "city_id": "253",
+              "id": "253",
+              "title": "萍乡",
+              "code": "150500",
+              "region": []
+            },
+            {
+              "city_id": "254",
+              "id": "254",
+              "title": "新馀",
+              "code": "150600",
+              "region": []
+            },
+            {
+              "city_id": "255",
+              "id": "255",
+              "title": "赣州",
+              "code": "150700",
+              "region": []
+            },
+            {
+              "city_id": "256",
+              "id": "256",
+              "title": "吉安",
+              "code": "150800",
+              "region": []
+            },
+            {
+              "city_id": "257",
+              "id": "257",
+              "title": "宜春",
+              "code": "150900",
+              "region": []
+            },
+            {
+              "city_id": "258",
+              "id": "258",
+              "title": "抚州",
+              "code": "151000",
+              "region": []
+            },
+            {
+              "city_id": "259",
+              "id": "259",
+              "title": "上饶",
+              "code": "151100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "261",
+          "id": "261",
+          "title": "山东",
+          "code": "160000",
+          "city": [
+            {
+              "city_id": "262",
+              "id": "262",
+              "title": "济南",
+              "code": "160100",
+              "region": []
+            },
+            {
+              "city_id": "263",
+              "id": "263",
+              "title": "青岛",
+              "code": "160200",
+              "region": []
+            },
+            {
+              "city_id": "264",
+              "id": "264",
+              "title": "淄博",
+              "code": "160300",
+              "region": []
+            },
+            {
+              "city_id": "265",
+              "id": "265",
+              "title": "枣庄",
+              "code": "160400",
+              "region": []
+            },
+            {
+              "city_id": "266",
+              "id": "266",
+              "title": "东营",
+              "code": "160500",
+              "region": []
+            },
+            {
+              "city_id": "267",
+              "id": "267",
+              "title": "烟台",
+              "code": "160600",
+              "region": []
+            },
+            {
+              "city_id": "268",
+              "id": "268",
+              "title": "潍坊",
+              "code": "160700",
+              "region": []
+            },
+            {
+              "city_id": "269",
+              "id": "269",
+              "title": "济宁",
+              "code": "160800",
+              "region": []
+            },
+            {
+              "city_id": "270",
+              "id": "270",
+              "title": "泰安",
+              "code": "160900",
+              "region": []
+            },
+            {
+              "city_id": "271",
+              "id": "271",
+              "title": "威海",
+              "code": "161000",
+              "region": []
+            },
+            {
+              "city_id": "272",
+              "id": "272",
+              "title": "日照",
+              "code": "161100",
+              "region": []
+            },
+            {
+              "city_id": "273",
+              "id": "273",
+              "title": "莱芜",
+              "code": "161200",
+              "region": []
+            },
+            {
+              "city_id": "274",
+              "id": "274",
+              "title": "临沂",
+              "code": "161300",
+              "region": []
+            },
+            {
+              "city_id": "275",
+              "id": "275",
+              "title": "德州",
+              "code": "161400",
+              "region": []
+            },
+            {
+              "city_id": "276",
+              "id": "276",
+              "title": "聊城",
+              "code": "161500",
+              "region": []
+            },
+            {
+              "city_id": "277",
+              "id": "277",
+              "title": "滨州",
+              "code": "161600",
+              "region": []
+            },
+            {
+              "city_id": "278",
+              "id": "278",
+              "title": "菏泽",
+              "code": "161700",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "280",
+          "id": "280",
+          "title": "河南",
+          "code": "170000",
+          "city": [
+            {
+              "city_id": "281",
+              "id": "281",
+              "title": "郑州",
+              "code": "170100",
+              "region": []
+            },
+            {
+              "city_id": "282",
+              "id": "282",
+              "title": "开封",
+              "code": "170200",
+              "region": []
+            },
+            {
+              "city_id": "283",
+              "id": "283",
+              "title": "洛阳",
+              "code": "170300",
+              "region": []
+            },
+            {
+              "city_id": "284",
+              "id": "284",
+              "title": "平顶山",
+              "code": "170400",
+              "region": []
+            },
+            {
+              "city_id": "285",
+              "id": "285",
+              "title": "安阳",
+              "code": "170500",
+              "region": []
+            },
+            {
+              "city_id": "286",
+              "id": "286",
+              "title": "鹤壁",
+              "code": "170600",
+              "region": []
+            },
+            {
+              "city_id": "287",
+              "id": "287",
+              "title": "新乡",
+              "code": "170700",
+              "region": []
+            },
+            {
+              "city_id": "288",
+              "id": "288",
+              "title": "焦作",
+              "code": "170800",
+              "region": []
+            },
+            {
+              "city_id": "289",
+              "id": "289",
+              "title": "濮阳",
+              "code": "170900",
+              "region": []
+            },
+            {
+              "city_id": "290",
+              "id": "290",
+              "title": "许昌",
+              "code": "171000",
+              "region": []
+            },
+            {
+              "city_id": "291",
+              "id": "291",
+              "title": "漯河",
+              "code": "171100",
+              "region": []
+            },
+            {
+              "city_id": "292",
+              "id": "292",
+              "title": "三门峡",
+              "code": "171200",
+              "region": []
+            },
+            {
+              "city_id": "293",
+              "id": "293",
+              "title": "南阳",
+              "code": "171300",
+              "region": []
+            },
+            {
+              "city_id": "294",
+              "id": "294",
+              "title": "商丘",
+              "code": "171400",
+              "region": []
+            },
+            {
+              "city_id": "295",
+              "id": "295",
+              "title": "信阳",
+              "code": "171500",
+              "region": []
+            },
+            {
+              "city_id": "296",
+              "id": "296",
+              "title": "周口",
+              "code": "171600",
+              "region": []
+            },
+            {
+              "city_id": "297",
+              "id": "297",
+              "title": "驻马店",
+              "code": "171700",
+              "region": []
+            },
+            {
+              "city_id": "298",
+              "id": "298",
+              "title": "济源",
+              "code": "171800",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "300",
+          "id": "300",
+          "title": "湖北",
+          "code": "180000",
+          "city": [
+            {
+              "city_id": "301",
+              "id": "301",
+              "title": "武汉",
+              "code": "180100",
+              "region": []
+            },
+            {
+              "city_id": "302",
+              "id": "302",
+              "title": "宜昌",
+              "code": "180200",
+              "region": []
+            },
+            {
+              "city_id": "303",
+              "id": "303",
+              "title": "荆州",
+              "code": "180300",
+              "region": []
+            },
+            {
+              "city_id": "304",
+              "id": "304",
+              "title": "襄樊",
+              "code": "180400",
+              "region": []
+            },
+            {
+              "city_id": "305",
+              "id": "305",
+              "title": "黄石",
+              "code": "180500",
+              "region": []
+            },
+            {
+              "city_id": "306",
+              "id": "306",
+              "title": "荆门",
+              "code": "180600",
+              "region": []
+            },
+            {
+              "city_id": "307",
+              "id": "307",
+              "title": "黄冈",
+              "code": "180700",
+              "region": []
+            },
+            {
+              "city_id": "308",
+              "id": "308",
+              "title": "十堰",
+              "code": "180800",
+              "region": []
+            },
+            {
+              "city_id": "309",
+              "id": "309",
+              "title": "恩施",
+              "code": "180900",
+              "region": []
+            },
+            {
+              "city_id": "310",
+              "id": "310",
+              "title": "潜江",
+              "code": "181000",
+              "region": []
+            },
+            {
+              "city_id": "311",
+              "id": "311",
+              "title": "天门",
+              "code": "181100",
+              "region": []
+            },
+            {
+              "city_id": "312",
+              "id": "312",
+              "title": "仙桃",
+              "code": "181200",
+              "region": []
+            },
+            {
+              "city_id": "313",
+              "id": "313",
+              "title": "随州",
+              "code": "181300",
+              "region": []
+            },
+            {
+              "city_id": "314",
+              "id": "314",
+              "title": "咸宁",
+              "code": "181400",
+              "region": []
+            },
+            {
+              "city_id": "315",
+              "id": "315",
+              "title": "孝感",
+              "code": "181500",
+              "region": []
+            },
+            {
+              "city_id": "316",
+              "id": "316",
+              "title": "鄂州",
+              "code": "181600",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "318",
+          "id": "318",
+          "title": "湖南",
+          "code": "190000",
+          "city": [
+            {
+              "city_id": "319",
+              "id": "319",
+              "title": "长沙",
+              "code": "190100",
+              "region": []
+            },
+            {
+              "city_id": "320",
+              "id": "320",
+              "title": "常德",
+              "code": "190200",
+              "region": []
+            },
+            {
+              "city_id": "321",
+              "id": "321",
+              "title": "株洲",
+              "code": "190300",
+              "region": []
+            },
+            {
+              "city_id": "322",
+              "id": "322",
+              "title": "湘潭",
+              "code": "190400",
+              "region": []
+            },
+            {
+              "city_id": "323",
+              "id": "323",
+              "title": "衡阳",
+              "code": "190500",
+              "region": []
+            },
+            {
+              "city_id": "324",
+              "id": "324",
+              "title": "岳阳",
+              "code": "190600",
+              "region": []
+            },
+            {
+              "city_id": "325",
+              "id": "325",
+              "title": "邵阳",
+              "code": "190700",
+              "region": []
+            },
+            {
+              "city_id": "326",
+              "id": "326",
+              "title": "益阳",
+              "code": "190800",
+              "region": []
+            },
+            {
+              "city_id": "327",
+              "id": "327",
+              "title": "娄底",
+              "code": "190900",
+              "region": []
+            },
+            {
+              "city_id": "328",
+              "id": "328",
+              "title": "怀化",
+              "code": "191000",
+              "region": []
+            },
+            {
+              "city_id": "329",
+              "id": "329",
+              "title": "郴州",
+              "code": "191100",
+              "region": []
+            },
+            {
+              "city_id": "330",
+              "id": "330",
+              "title": "永州",
+              "code": "191200",
+              "region": []
+            },
+            {
+              "city_id": "331",
+              "id": "331",
+              "title": "湘西",
+              "code": "191300",
+              "region": []
+            },
+            {
+              "city_id": "332",
+              "id": "332",
+              "title": "张家界",
+              "code": "191400",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "334",
+          "id": "334",
+          "title": "广东",
+          "code": "200000",
+          "city": [
+            {
+              "city_id": "335",
+              "id": "335",
+              "title": "广州",
+              "code": "200100",
+              "region": []
+            },
+            {
+              "city_id": "336",
+              "id": "336",
+              "title": "深圳",
+              "code": "200200",
+              "region": []
+            },
+            {
+              "city_id": "337",
+              "id": "337",
+              "title": "珠海",
+              "code": "200300",
+              "region": []
+            },
+            {
+              "city_id": "338",
+              "id": "338",
+              "title": "汕头",
+              "code": "200400",
+              "region": []
+            },
+            {
+              "city_id": "339",
+              "id": "339",
+              "title": "东莞",
+              "code": "200500",
+              "region": []
+            },
+            {
+              "city_id": "340",
+              "id": "340",
+              "title": "中山",
+              "code": "200600",
+              "region": []
+            },
+            {
+              "city_id": "341",
+              "id": "341",
+              "title": "佛山",
+              "code": "200700",
+              "region": []
+            },
+            {
+              "city_id": "342",
+              "id": "342",
+              "title": "韶关",
+              "code": "200800",
+              "region": []
+            },
+            {
+              "city_id": "343",
+              "id": "343",
+              "title": "江门",
+              "code": "200900",
+              "region": []
+            },
+            {
+              "city_id": "344",
+              "id": "344",
+              "title": "湛江",
+              "code": "201000",
+              "region": []
+            },
+            {
+              "city_id": "345",
+              "id": "345",
+              "title": "茂名",
+              "code": "201100",
+              "region": []
+            },
+            {
+              "city_id": "346",
+              "id": "346",
+              "title": "肇庆",
+              "code": "201200",
+              "region": []
+            },
+            {
+              "city_id": "347",
+              "id": "347",
+              "title": "惠州",
+              "code": "201300",
+              "region": []
+            },
+            {
+              "city_id": "348",
+              "id": "348",
+              "title": "梅州",
+              "code": "201400",
+              "region": []
+            },
+            {
+              "city_id": "349",
+              "id": "349",
+              "title": "汕尾",
+              "code": "201500",
+              "region": []
+            },
+            {
+              "city_id": "350",
+              "id": "350",
+              "title": "河源",
+              "code": "201600",
+              "region": []
+            },
+            {
+              "city_id": "351",
+              "id": "351",
+              "title": "阳江",
+              "code": "201700",
+              "region": []
+            },
+            {
+              "city_id": "352",
+              "id": "352",
+              "title": "清远",
+              "code": "201800",
+              "region": []
+            },
+            {
+              "city_id": "353",
+              "id": "353",
+              "title": "潮州",
+              "code": "201900",
+              "region": []
+            },
+            {
+              "city_id": "354",
+              "id": "354",
+              "title": "揭阳",
+              "code": "202000",
+              "region": []
+            },
+            {
+              "city_id": "355",
+              "id": "355",
+              "title": "云浮",
+              "code": "202100",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "357",
+          "id": "357",
+          "title": "广西",
+          "code": "210000",
+          "city": [
+            {
+              "city_id": "358",
+              "id": "358",
+              "title": "南宁",
+              "code": "210100",
+              "region": []
+            },
+            {
+              "city_id": "359",
+              "id": "359",
+              "title": "柳州",
+              "code": "210200",
+              "region": []
+            },
+            {
+              "city_id": "360",
+              "id": "360",
+              "title": "桂林",
+              "code": "210300",
+              "region": []
+            },
+            {
+              "city_id": "361",
+              "id": "361",
+              "title": "梧州",
+              "code": "210400",
+              "region": []
+            },
+            {
+              "city_id": "362",
+              "id": "362",
+              "title": "北海",
+              "code": "210500",
+              "region": []
+            },
+            {
+              "city_id": "363",
+              "id": "363",
+              "title": "防城港",
+              "code": "210600",
+              "region": []
+            },
+            {
+              "city_id": "364",
+              "id": "364",
+              "title": "钦州",
+              "code": "210700",
+              "region": []
+            },
+            {
+              "city_id": "365",
+              "id": "365",
+              "title": "贵港",
+              "code": "210800",
+              "region": []
+            },
+            {
+              "city_id": "366",
+              "id": "366",
+              "title": "玉林",
+              "code": "210900",
+              "region": []
+            },
+            {
+              "city_id": "367",
+              "id": "367",
+              "title": "南宁地区",
+              "code": "211000",
+              "region": []
+            },
+            {
+              "city_id": "368",
+              "id": "368",
+              "title": "柳州地区",
+              "code": "211100",
+              "region": []
+            },
+            {
+              "city_id": "369",
+              "id": "369",
+              "title": "贺州",
+              "code": "211200",
+              "region": []
+            },
+            {
+              "city_id": "370",
+              "id": "370",
+              "title": "百色",
+              "code": "211300",
+              "region": []
+            },
+            {
+              "city_id": "371",
+              "id": "371",
+              "title": "河池",
+              "code": "211400",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "373",
+          "id": "373",
+          "title": "海南",
+          "code": "220000",
+          "city": [
+            {
+              "city_id": "374",
+              "id": "374",
+              "title": "海口市",
+              "code": "220100",
+              "region": []
+            },
+            {
+              "city_id": "375",
+              "id": "375",
+              "title": "三亚市",
+              "code": "220200",
+              "region": []
+            },
+            {
+              "city_id": "376",
+              "id": "376",
+              "title": "五指山市",
+              "code": "220300",
+              "region": []
+            },
+            {
+              "city_id": "377",
+              "id": "377",
+              "title": "琼海市",
+              "code": "220400",
+              "region": []
+            },
+            {
+              "city_id": "378",
+              "id": "378",
+              "title": "儋州市",
+              "code": "220500",
+              "region": []
+            },
+            {
+              "city_id": "379",
+              "id": "379",
+              "title": "文昌市",
+              "code": "220600",
+              "region": []
+            },
+            {
+              "city_id": "380",
+              "id": "380",
+              "title": "万宁市",
+              "code": "220700",
+              "region": []
+            },
+            {
+              "city_id": "381",
+              "id": "381",
+              "title": "东方市",
+              "code": "220800",
+              "region": []
+            },
+            {
+              "city_id": "382",
+              "id": "382",
+              "title": "澄迈县",
+              "code": "220900",
+              "region": []
+            },
+            {
+              "city_id": "383",
+              "id": "383",
+              "title": "定安县",
+              "code": "221000",
+              "region": []
+            },
+            {
+              "city_id": "384",
+              "id": "384",
+              "title": "屯昌县",
+              "code": "221100",
+              "region": []
+            },
+            {
+              "city_id": "385",
+              "id": "385",
+              "title": "临高县",
+              "code": "221200",
+              "region": []
+            },
+            {
+              "city_id": "386",
+              "id": "386",
+              "title": "白沙黎族自治县",
+              "code": "221300",
+              "region": []
+            },
+            {
+              "city_id": "387",
+              "id": "387",
+              "title": "昌江黎族自治县",
+              "code": "221400",
+              "region": []
+            },
+            {
+              "city_id": "388",
+              "id": "388",
+              "title": "乐东黎族自治县",
+              "code": "221500",
+              "region": []
+            },
+            {
+              "city_id": "389",
+              "id": "389",
+              "title": "陵水黎族自治县",
+              "code": "221600",
+              "region": []
+            },
+            {
+              "city_id": "390",
+              "id": "390",
+              "title": "保亭黎族苗族自治县",
+              "code": "221700",
+              "region": []
+            },
+            {
+              "city_id": "391",
+              "id": "391",
+              "title": "琼中黎族苗族自治县",
+              "code": "221800",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "393",
+          "id": "393",
+          "title": "四川",
+          "code": "230000",
+          "city": [
+            {
+              "city_id": "394",
+              "id": "394",
+              "title": "成都",
+              "code": "230100",
+              "region": []
+            },
+            {
+              "city_id": "395",
+              "id": "395",
+              "title": "绵阳",
+              "code": "230200",
+              "region": []
+            },
+            {
+              "city_id": "396",
+              "id": "396",
+              "title": "德阳",
+              "code": "230300",
+              "region": []
+            },
+            {
+              "city_id": "397",
+              "id": "397",
+              "title": "自贡",
+              "code": "230400",
+              "region": []
+            },
+            {
+              "city_id": "398",
+              "id": "398",
+              "title": "攀枝花",
+              "code": "230500",
+              "region": []
+            },
+            {
+              "city_id": "399",
+              "id": "399",
+              "title": "广元",
+              "code": "230600",
+              "region": []
+            },
+            {
+              "city_id": "400",
+              "id": "400",
+              "title": "内江",
+              "code": "230700",
+              "region": []
+            },
+            {
+              "city_id": "401",
+              "id": "401",
+              "title": "乐山",
+              "code": "230800",
+              "region": []
+            },
+            {
+              "city_id": "402",
+              "id": "402",
+              "title": "南充",
+              "code": "230900",
+              "region": []
+            },
+            {
+              "city_id": "403",
+              "id": "403",
+              "title": "宜宾",
+              "code": "231000",
+              "region": []
+            },
+            {
+              "city_id": "404",
+              "id": "404",
+              "title": "广安",
+              "code": "231100",
+              "region": []
+            },
+            {
+              "city_id": "405",
+              "id": "405",
+              "title": "达川",
+              "code": "231200",
+              "region": []
+            },
+            {
+              "city_id": "406",
+              "id": "406",
+              "title": "雅安",
+              "code": "231300",
+              "region": []
+            },
+            {
+              "city_id": "407",
+              "id": "407",
+              "title": "眉山",
+              "code": "231400",
+              "region": []
+            },
+            {
+              "city_id": "408",
+              "id": "408",
+              "title": "甘孜",
+              "code": "231500",
+              "region": []
+            },
+            {
+              "city_id": "409",
+              "id": "409",
+              "title": "凉山",
+              "code": "231600",
+              "region": []
+            },
+            {
+              "city_id": "410",
+              "id": "410",
+              "title": "泸州",
+              "code": "231700",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "412",
+          "id": "412",
+          "title": "贵州",
+          "code": "240000",
+          "city": [
+            {
+              "city_id": "413",
+              "id": "413",
+              "title": "贵阳",
+              "code": "240100",
+              "region": []
+            },
+            {
+              "city_id": "414",
+              "id": "414",
+              "title": "六盘水",
+              "code": "240200",
+              "region": []
+            },
+            {
+              "city_id": "415",
+              "id": "415",
+              "title": "遵义",
+              "code": "240300",
+              "region": []
+            },
+            {
+              "city_id": "416",
+              "id": "416",
+              "title": "安顺",
+              "code": "240400",
+              "region": []
+            },
+            {
+              "city_id": "417",
+              "id": "417",
+              "title": "铜仁",
+              "code": "240500",
+              "region": []
+            },
+            {
+              "city_id": "418",
+              "id": "418",
+              "title": "黔西南",
+              "code": "240600",
+              "region": []
+            },
+            {
+              "city_id": "419",
+              "id": "419",
+              "title": "毕节",
+              "code": "240700",
+              "region": []
+            },
+            {
+              "city_id": "420",
+              "id": "420",
+              "title": "黔东南",
+              "code": "240800",
+              "region": []
+            },
+            {
+              "city_id": "421",
+              "id": "421",
+              "title": "黔南",
+              "code": "240900",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "423",
+          "id": "423",
+          "title": "云南",
+          "code": "250000",
+          "city": [
+            {
+              "city_id": "424",
+              "id": "424",
+              "title": "昆明",
+              "code": "250100",
+              "region": []
+            },
+            {
+              "city_id": "425",
+              "id": "425",
+              "title": "大理",
+              "code": "250200",
+              "region": []
+            },
+            {
+              "city_id": "426",
+              "id": "426",
+              "title": "曲靖",
+              "code": "250300",
+              "region": []
+            },
+            {
+              "city_id": "427",
+              "id": "427",
+              "title": "玉溪",
+              "code": "250400",
+              "region": []
+            },
+            {
+              "city_id": "428",
+              "id": "428",
+              "title": "昭通",
+              "code": "250500",
+              "region": []
+            },
+            {
+              "city_id": "429",
+              "id": "429",
+              "title": "楚雄",
+              "code": "250600",
+              "region": []
+            },
+            {
+              "city_id": "430",
+              "id": "430",
+              "title": "红河",
+              "code": "250700",
+              "region": []
+            },
+            {
+              "city_id": "431",
+              "id": "431",
+              "title": "文山",
+              "code": "250800",
+              "region": []
+            },
+            {
+              "city_id": "432",
+              "id": "432",
+              "title": "思茅",
+              "code": "250900",
+              "region": []
+            },
+            {
+              "city_id": "433",
+              "id": "433",
+              "title": "西双版纳",
+              "code": "251000",
+              "region": []
+            },
+            {
+              "city_id": "434",
+              "id": "434",
+              "title": "保山",
+              "code": "251100",
+              "region": []
+            },
+            {
+              "city_id": "435",
+              "id": "435",
+              "title": "德宏",
+              "code": "251200",
+              "region": []
+            },
+            {
+              "city_id": "436",
+              "id": "436",
+              "title": "丽江",
+              "code": "251300",
+              "region": []
+            },
+            {
+              "city_id": "437",
+              "id": "437",
+              "title": "怒江",
+              "code": "251400",
+              "region": []
+            },
+            {
+              "city_id": "438",
+              "id": "438",
+              "title": "迪庆",
+              "code": "251500",
+              "region": []
+            },
+            {
+              "city_id": "439",
+              "id": "439",
+              "title": "临沧",
+              "code": "251600",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "441",
+          "id": "441",
+          "title": "西藏",
+          "code": "260000",
+          "city": [
+            {
+              "city_id": "442",
+              "id": "442",
+              "title": "拉萨",
+              "code": "260100",
+              "region": []
+            },
+            {
+              "city_id": "443",
+              "id": "443",
+              "title": "日喀则",
+              "code": "260200",
+              "region": []
+            },
+            {
+              "city_id": "444",
+              "id": "444",
+              "title": "山南",
+              "code": "260300",
+              "region": []
+            },
+            {
+              "city_id": "445",
+              "id": "445",
+              "title": "林芝",
+              "code": "260400",
+              "region": []
+            },
+            {
+              "city_id": "446",
+              "id": "446",
+              "title": "昌都",
+              "code": "260500",
+              "region": []
+            },
+            {
+              "city_id": "447",
+              "id": "447",
+              "title": "阿里",
+              "code": "260600",
+              "region": []
+            },
+            {
+              "city_id": "448",
+              "id": "448",
+              "title": "那曲",
+              "code": "260700",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "450",
+          "id": "450",
+          "title": "陕西",
+          "code": "270000",
+          "city": [
+            {
+              "city_id": "451",
+              "id": "451",
+              "title": "西安",
+              "code": "270100",
+              "region": []
+            },
+            {
+              "city_id": "452",
+              "id": "452",
+              "title": "宝鸡",
+              "code": "270200",
+              "region": []
+            },
+            {
+              "city_id": "453",
+              "id": "453",
+              "title": "咸阳",
+              "code": "270300",
+              "region": []
+            },
+            {
+              "city_id": "454",
+              "id": "454",
+              "title": "铜川",
+              "code": "270400",
+              "region": []
+            },
+            {
+              "city_id": "455",
+              "id": "455",
+              "title": "渭南",
+              "code": "270500",
+              "region": []
+            },
+            {
+              "city_id": "456",
+              "id": "456",
+              "title": "延安",
+              "code": "270600",
+              "region": []
+            },
+            {
+              "city_id": "457",
+              "id": "457",
+              "title": "榆林",
+              "code": "270700",
+              "region": []
+            },
+            {
+              "city_id": "458",
+              "id": "458",
+              "title": "汉中",
+              "code": "270800",
+              "region": []
+            },
+            {
+              "city_id": "459",
+              "id": "459",
+              "title": "安康",
+              "code": "270900",
+              "region": []
+            },
+            {
+              "city_id": "460",
+              "id": "460",
+              "title": "商洛",
+              "code": "271000",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "462",
+          "id": "462",
+          "title": "甘肃",
+          "code": "280000",
+          "city": [
+            {
+              "city_id": "463",
+              "id": "463",
+              "title": "兰州",
+              "code": "280100",
+              "region": []
+            },
+            {
+              "city_id": "464",
+              "id": "464",
+              "title": "嘉峪关",
+              "code": "280200",
+              "region": []
+            },
+            {
+              "city_id": "465",
+              "id": "465",
+              "title": "金昌",
+              "code": "280300",
+              "region": []
+            },
+            {
+              "city_id": "466",
+              "id": "466",
+              "title": "白银",
+              "code": "280400",
+              "region": []
+            },
+            {
+              "city_id": "467",
+              "id": "467",
+              "title": "天水",
+              "code": "280500",
+              "region": []
+            },
+            {
+              "city_id": "468",
+              "id": "468",
+              "title": "酒泉",
+              "code": "280600",
+              "region": []
+            },
+            {
+              "city_id": "469",
+              "id": "469",
+              "title": "张掖",
+              "code": "280700",
+              "region": []
+            },
+            {
+              "city_id": "470",
+              "id": "470",
+              "title": "武威",
+              "code": "280800",
+              "region": []
+            },
+            {
+              "city_id": "471",
+              "id": "471",
+              "title": "定西",
+              "code": "280900",
+              "region": []
+            },
+            {
+              "city_id": "472",
+              "id": "472",
+              "title": "陇南",
+              "code": "281000",
+              "region": []
+            },
+            {
+              "city_id": "473",
+              "id": "473",
+              "title": "平凉",
+              "code": "281100",
+              "region": []
+            },
+            {
+              "city_id": "474",
+              "id": "474",
+              "title": "庆阳",
+              "code": "281200",
+              "region": []
+            },
+            {
+              "city_id": "475",
+              "id": "475",
+              "title": "临夏",
+              "code": "281300",
+              "region": []
+            },
+            {
+              "city_id": "476",
+              "id": "476",
+              "title": "甘南",
+              "code": "281400",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "478",
+          "id": "478",
+          "title": "宁夏",
+          "code": "290000",
+          "city": [
+            {
+              "city_id": "479",
+              "id": "479",
+              "title": "银川",
+              "code": "290100",
+              "region": []
+            },
+            {
+              "city_id": "480",
+              "id": "480",
+              "title": "石嘴山",
+              "code": "290200",
+              "region": []
+            },
+            {
+              "city_id": "481",
+              "id": "481",
+              "title": "吴忠",
+              "code": "290300",
+              "region": []
+            },
+            {
+              "city_id": "482",
+              "id": "482",
+              "title": "固原",
+              "code": "290400",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "484",
+          "id": "484",
+          "title": "青海",
+          "code": "300000",
+          "city": [
+            {
+              "city_id": "485",
+              "id": "485",
+              "title": "西宁",
+              "code": "300100",
+              "region": []
+            },
+            {
+              "city_id": "486",
+              "id": "486",
+              "title": "海东",
+              "code": "300200",
+              "region": []
+            },
+            {
+              "city_id": "487",
+              "id": "487",
+              "title": "海南",
+              "code": "300300",
+              "region": []
+            },
+            {
+              "city_id": "488",
+              "id": "488",
+              "title": "海北",
+              "code": "300400",
+              "region": []
+            },
+            {
+              "city_id": "489",
+              "id": "489",
+              "title": "黄南",
+              "code": "300500",
+              "region": []
+            },
+            {
+              "city_id": "490",
+              "id": "490",
+              "title": "玉树",
+              "code": "300600",
+              "region": []
+            },
+            {
+              "city_id": "491",
+              "id": "491",
+              "title": "果洛",
+              "code": "300700",
+              "region": []
+            },
+            {
+              "city_id": "492",
+              "id": "492",
+              "title": "海西",
+              "code": "300800",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "494",
+          "id": "494",
+          "title": "新疆",
+          "code": "310000",
+          "city": [
+            {
+              "city_id": "495",
+              "id": "495",
+              "title": "乌鲁木齐",
+              "code": "310100",
+              "region": []
+            },
+            {
+              "city_id": "496",
+              "id": "496",
+              "title": "石河子",
+              "code": "310200",
+              "region": []
+            },
+            {
+              "city_id": "497",
+              "id": "497",
+              "title": "克拉玛依",
+              "code": "310300",
+              "region": []
+            },
+            {
+              "city_id": "498",
+              "id": "498",
+              "title": "伊犁",
+              "code": "310400",
+              "region": []
+            },
+            {
+              "city_id": "499",
+              "id": "499",
+              "title": "巴音郭勒",
+              "code": "310500",
+              "region": []
+            },
+            {
+              "city_id": "500",
+              "id": "500",
+              "title": "昌吉",
+              "code": "310600",
+              "region": []
+            },
+            {
+              "city_id": "501",
+              "id": "501",
+              "title": "克孜勒苏柯尔克孜",
+              "code": "310700",
+              "region": []
+            },
+            {
+              "city_id": "502",
+              "id": "502",
+              "title": "博尔塔拉",
+              "code": "310800",
+              "region": []
+            },
+            {
+              "city_id": "503",
+              "id": "503",
+              "title": "吐鲁番",
+              "code": "310900",
+              "region": []
+            },
+            {
+              "city_id": "504",
+              "id": "504",
+              "title": "哈密",
+              "code": "311000",
+              "region": []
+            },
+            {
+              "city_id": "505",
+              "id": "505",
+              "title": "喀什",
+              "code": "311100",
+              "region": []
+            },
+            {
+              "city_id": "506",
+              "id": "506",
+              "title": "和田",
+              "code": "311200",
+              "region": []
+            },
+            {
+              "city_id": "507",
+              "id": "507",
+              "title": "阿克苏",
+              "code": "311300",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "509",
+          "id": "509",
+          "title": "香港",
+          "code": "320000",
+          "city": [
+            {
+              "city_id": "510",
+              "id": "510",
+              "title": "中西区",
+              "code": "320100",
+              "region": []
+            },
+            {
+              "city_id": "511",
+              "id": "511",
+              "title": "东区",
+              "code": "320200",
+              "region": []
+            },
+            {
+              "city_id": "512",
+              "id": "512",
+              "title": "九龙城区",
+              "code": "320300",
+              "region": []
+            },
+            {
+              "city_id": "513",
+              "id": "513",
+              "title": "观塘区",
+              "code": "320400",
+              "region": []
+            },
+            {
+              "city_id": "514",
+              "id": "514",
+              "title": "南区",
+              "code": "320500",
+              "region": []
+            },
+            {
+              "city_id": "515",
+              "id": "515",
+              "title": "深水埗区",
+              "code": "320600",
+              "region": []
+            },
+            {
+              "city_id": "516",
+              "id": "516",
+              "title": "湾仔区",
+              "code": "320700",
+              "region": []
+            },
+            {
+              "city_id": "517",
+              "id": "517",
+              "title": "黄大仙区",
+              "code": "320800",
+              "region": []
+            },
+            {
+              "city_id": "518",
+              "id": "518",
+              "title": "油尖旺区",
+              "code": "320900",
+              "region": []
+            },
+            {
+              "city_id": "519",
+              "id": "519",
+              "title": "离岛区",
+              "code": "321000",
+              "region": []
+            },
+            {
+              "city_id": "520",
+              "id": "520",
+              "title": "葵青区",
+              "code": "321100",
+              "region": []
+            },
+            {
+              "city_id": "521",
+              "id": "521",
+              "title": "北区",
+              "code": "321200",
+              "region": []
+            },
+            {
+              "city_id": "522",
+              "id": "522",
+              "title": "西贡区",
+              "code": "321300",
+              "region": []
+            },
+            {
+              "city_id": "523",
+              "id": "523",
+              "title": "沙田区",
+              "code": "321400",
+              "region": []
+            },
+            {
+              "city_id": "524",
+              "id": "524",
+              "title": "屯门区",
+              "code": "321500",
+              "region": []
+            },
+            {
+              "city_id": "525",
+              "id": "525",
+              "title": "大埔区",
+              "code": "321600",
+              "region": []
+            },
+            {
+              "city_id": "526",
+              "id": "526",
+              "title": "荃湾区",
+              "code": "321700",
+              "region": []
+            },
+            {
+              "city_id": "527",
+              "id": "527",
+              "title": "元朗区",
+              "code": "321800",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "529",
+          "id": "529",
+          "title": "澳门",
+          "code": "330000",
+          "city": [
+            {
+              "city_id": "530",
+              "id": "530",
+              "title": "花地玛堂区",
+              "code": "330100",
+              "region": []
+            },
+            {
+              "city_id": "531",
+              "id": "531",
+              "title": "圣安多尼堂区",
+              "code": "330200",
+              "region": []
+            },
+            {
+              "city_id": "532",
+              "id": "532",
+              "title": "大堂区",
+              "code": "330300",
+              "region": []
+            },
+            {
+              "city_id": "533",
+              "id": "533",
+              "title": "望德堂区",
+              "code": "330400",
+              "region": []
+            },
+            {
+              "city_id": "534",
+              "id": "534",
+              "title": "风顺堂区",
+              "code": "330500",
+              "region": []
+            },
+            {
+              "city_id": "535",
+              "id": "535",
+              "title": "路氹城",
+              "code": "330600",
+              "region": []
+            }
+          ]
+        },
+        {
+          "province_id": "537",
+          "id": "537",
+          "title": "台湾",
+          "code": "340000",
+          "city": [
+            {
+              "city_id": "538",
+              "id": "538",
+              "title": "台北",
+              "code": "340100",
+              "region": []
+            },
+            {
+              "city_id": "539",
+              "id": "539",
+              "title": "高雄",
+              "code": "340200",
+              "region": []
+            },
+            {
+              "city_id": "540",
+              "id": "540",
+              "title": "台中",
+              "code": "340300",
+              "region": []
+            },
+            {
+              "city_id": "541",
+              "id": "541",
+              "title": "台南",
+              "code": "340400",
+              "region": []
+            },
+            {
+              "city_id": "542",
+              "id": "542",
+              "title": "屏东",
+              "code": "340500",
+              "region": []
+            },
+            {
+              "city_id": "543",
+              "id": "543",
+              "title": "南投",
+              "code": "340600",
+              "region": []
+            },
+            {
+              "city_id": "544",
+              "id": "544",
+              "title": "云林",
+              "code": "340700",
+              "region": []
+            },
+            {
+              "city_id": "545",
+              "id": "545",
+              "title": "新竹",
+              "code": "340800",
+              "region": []
+            },
+            {
+              "city_id": "546",
+              "id": "546",
+              "title": "彰化",
+              "code": "340900",
+              "region": []
+            },
+            {
+              "city_id": "547",
+              "id": "547",
+              "title": "苗栗",
+              "code": "341000",
+              "region": []
+            },
+            {
+              "city_id": "548",
+              "id": "548",
+              "title": "嘉义",
+              "code": "341100",
+              "region": []
+            },
+            {
+              "city_id": "549",
+              "id": "549",
+              "title": "花莲",
+              "code": "341200",
+              "region": []
+            },
+            {
+              "city_id": "550",
+              "id": "550",
+              "title": "桃园",
+              "code": "341300",
+              "region": []
+            },
+            {
+              "city_id": "551",
+              "id": "551",
+              "title": "宜兰",
+              "code": "341400",
+              "region": []
+            },
+            {
+              "city_id": "552",
+              "id": "552",
+              "title": "基隆",
+              "code": "341500",
+              "region": []
+            },
+            {
+              "city_id": "553",
+              "id": "553",
+              "title": "台东",
+              "code": "341600",
+              "region": []
+            },
+            {
+              "city_id": "554",
+              "id": "554",
+              "title": "金门",
+              "code": "341700",
+              "region": []
+            },
+            {
+              "city_id": "555",
+              "id": "555",
+              "title": "马祖",
+              "code": "341800",
+              "region": []
+            },
+            {
+              "city_id": "556",
+              "id": "556",
+              "title": "澎湖",
+              "code": "341900",
+              "region": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country_id": "558",
+      "id": "558",
+      "title": "overseas",
+      "code": "990000",
+      "province": [
+        {
+          "province_id": "559",
+          "id": "559",
+          "title": "overseas",
+          "code": "999900",
+          "city": [
+            {
+              "city_id": "560",
+              "id": "560",
+              "title": "overseas",
+              "code": "999999",
+              "region": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

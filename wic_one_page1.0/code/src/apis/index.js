@@ -30,6 +30,12 @@ export default {
       method: "GET"
     });
   },
+  getAreaOptionsList() {
+    return request({
+      url: "/getAreaOptionsList",
+      method: "GET"
+    });
+  },
   postLogin(data) {
     return request({
       url: "/postLogin",

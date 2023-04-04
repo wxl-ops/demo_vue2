@@ -22,3 +22,7 @@ Mock.mock(baseURL + "/getExcellentCasesList", {
   code: 0,
   data: data.excellentCasesList
 });
+Mock.mock(baseURL + "/getAreaOptionsList", {
+  code: 0,
+  data: data.areaOptionsList
+});
