@@ -14,6 +14,7 @@ import nav from "@/page/nav/index";
 import navh5 from "@/page/nav/index-h5";
 import Layout from "@/components/layout";
 import list from "@/page/list/list";
+import listDetails from "@/page/list/listDetails";
 
 Vue.use(Router);
 
@@ -65,6 +66,16 @@ export default new Router({
             title: "落地页",
             highlight: "list",
             active_name: "list"
+          }
+        },
+        {
+          path: "/list/listDetails/:id",
+          name: "listDetails",
+          component: listDetails,
+          meta: {
+            title: "落地页",
+            highlight: "listDetails",
+            active_name: "listDetails"
           }
         }
       ]

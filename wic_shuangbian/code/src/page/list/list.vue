@@ -67,7 +67,14 @@
               </div>
             </div>
             <div class="desc-btn">
-              <button class="desc-btn-style">查看详情</button>
+              <button
+                class="desc-btn-style"
+                @click="
+                  $router.push(`/list/listDetails/${listItem.article_id}`)
+                "
+              >
+                查看详情
+              </button>
             </div>
           </div>
         </div>
@@ -390,11 +397,14 @@ export default {
     }
   }
   .list-bgc {
+    overflow: hidden;
+
     .list-wrapper {
       width: 100%;
       max-width: 1200px;
       margin: 0 auto;
       padding-top: 50px;
+      position: relative;
       .list-content-reverse {
         flex-direction: row-reverse;
       }
@@ -441,6 +451,7 @@ export default {
               padding: 5px 24px;
               background-color: #2c6dff;
               border: 0;
+              cursor: pointer;
             }
           }
         }
@@ -452,8 +463,8 @@ export default {
     padding: 30px 0px;
     background: #02082c;
     text-align: center;
-    position: relative;
-    bottom: 0;
+    // position: relative;
+    // bottom: 0;
     z-index: 11;
     .bottom-text {
       display: inline-block;
