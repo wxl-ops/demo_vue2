@@ -87,10 +87,19 @@
             <div class="menu-left-wrapper">
               <h3>全文概览</h3>
               <ul>
-                <li class="active-li">赛事简介</li>
-                <li>大赛主题</li>
-                <li>组织机构设置</li>
-                <li>大赛亮点</li>
+                <li
+                  :class="currentContent === index ? 'active-li' : ''"
+                  v-for="(item, index) in [
+                    '赛事简介',
+                    '大赛主题',
+                    '组织机构设置',
+                    '大赛亮点',
+                  ]"
+                  :key="index"
+                  @click="handleCurrentContent(index)"
+                >
+                  {{ item }}
+                </li>
               </ul>
               <p @click="$router.replace('/list')">
                 <i
@@ -121,7 +130,7 @@
               <div v-html="listStateDetails.article" class="content-desc"></div>
             </div>
             <div class="list-section-artical-content-video">
-              <i @click="handleVideoOpen" v-show="isShowVideoOpen">
+              <i ref="i_ref" @click="handleVideoOpen">
                 <svg
                   width="60"
                   height="60"
@@ -147,6 +156,8 @@
                 disablePictureInPicture
                 :src="listStateDetails.match_video.video_url"
                 ref="video_ref"
+                v-on:pause="handleVideoStop"
+                v-on:play="handleVideoAction"
               ></video>
             </div>
             <div class="list-section-artical-content-match_detail">
@@ -187,11 +198,12 @@
 <script>
 import apis from "@/api/common.js";
 export default {
+  name: "ListDetails",
   data() {
     return {
       configInfo: {},
       isbrowser: false,
-      isShowVideoOpen: true,
+      currentContent: 0,
       listState: [
         {
           article_id: "6295d46401e5b16fae551b1b",
@@ -345,11 +357,20 @@ export default {
         // this.$message.error(err.data.message || "获取配置失败!");
       });
   },
+
   methods: {
+    handleCurrentContent(index) {
+      this.currentContent = index;
+    },
     handleVideoOpen() {
-      // debugger;
       this.$refs.video_ref.play();
-      this.isShowVideoOpen = this.$refs.video_ref.paused;
+      // this.$refs.i_ref.style.display = "none";
+    },
+    handleVideoStop() {
+      this.$refs.i_ref.style.display = "block";
+    },
+    handleVideoAction() {
+      this.$refs.i_ref.style.display = "none";
     },
     isMac() {
       let isMac = /macintosh|mac os x/i.test(navigator.userAgent);
@@ -591,9 +612,10 @@ export default {
                 color: #9b9b9b;
                 padding: 8px 8px 8px;
                 border-left: 2px solid #e9e9e9;
-                cursor: pointer;
+
                 &:hover {
                   color: #366be7;
+                  cursor: pointer;
                 }
               }
               .active-li {

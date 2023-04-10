@@ -92,6 +92,7 @@
 <script>
 import apis from "@/api/common.js";
 export default {
+  name: "List",
   mounted() {
     console.log(this.$refs.listRef);
     for (let i = 0; i < this.$refs.listRef.length; i++) {
