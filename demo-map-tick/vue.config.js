@@ -1,4 +1,15 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  transpileDependencies: true
-})
+  transpileDependencies: true,
+  lintOnSave: false,
+  // configureWebpack: {
+  //   module: {
+  //     rules: [
+  //       {
+  //         test: /.pug$/,
+  //         loader: "pug-html-loader",
+  //       },
+  //     ],
+  //   },
+  // },
+});

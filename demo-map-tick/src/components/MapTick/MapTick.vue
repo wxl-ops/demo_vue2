@@ -1,7 +1,8 @@
 <template lang='pug'>
-<div class="map-tick">
-  div 
-</div>
+div
+  p!= "<em>cc</em>" + "with" + "yy!"
+  //- - for (let i = 0;i<3,i++)
+  //-   li 第#{ i }项
 </template>
 
 <script>
